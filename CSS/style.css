@@ -1,5 +1,5 @@
 body {
-  background: url("https://i.imgur.com/glWla8v.png");
+  background: url("images/trees.png");
   background-size: cover;
 }
 
@@ -29,8 +29,9 @@ iframe {
 }
 
 img {
-  max.height: 60%;
-  width: auto;
+  height:20%;
+  width:20%;
+  padding: 20px;
 }
 
 #rightcontainer {
