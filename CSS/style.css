@@ -1,0 +1,52 @@
+body {
+  background: url("https://i.imgur.com/glWla8v.png");
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  background: #8FCB9B;
+  color: #982649;
+  width:40%;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 90px;
+  border-radius: 6px;
+}
+
+#leftcontainer {
+  background: #8FCB9B;
+  padding: 15px;
+  font-family: 'Fugaz One', cursive;
+  color: #982649;
+  width:30%;
+  float: left;
+
+}
+
+iframe {
+  background: #5B9279;
+}
+
+img {
+  max.height: 60%;
+  width: auto;
+}
+
+#rightcontainer {
+  background: #064789;
+  border-radius: 8px;
+  float: right;
+  margin: -8px;
+  margin-top:-12px;
+}
+#maindiv {
+  display: flex
+  justify-content:space-between;
+
+}
+
+a {
+  text-decoration: none;
+  color: #064789;
+}
