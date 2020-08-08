@@ -1,5 +1,5 @@
 body {
-  background: url("images/trees.png");
+  background: url('../images/trees.png');
   background-size: cover;
 }
 
@@ -9,7 +9,7 @@ h1 {
   color: #982649;
   width:40%;
   margin: 0px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;w
   font-size: 90px;
   border-radius: 6px;
 }
@@ -21,6 +21,7 @@ h1 {
   color: #982649;
   width:30%;
   float: left;
+  margin: -8px;
 
 }
 
@@ -38,11 +39,7 @@ img {
   border-radius: 8px;
   float: right;
   overflow: hidden;
-}
-#maindiv {
-  display: flex
-  justify-content:space-between;
-
+  margin:-8px;
 }
 
 a {
